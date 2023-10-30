@@ -1,4 +1,4 @@
-package com.campusdual;
+package com.campusdual.exercises;
 
 import java.security.KeyStore;
 

@@ -1,4 +1,4 @@
-package com.campusdual;
+package com.campusdual.exercises;
 /*Sintaxis de for
  * El bucle for consta de 3 partes:
  * Una expresión de inicialización (se ejecuta al principio, asignando a la variable de control un valor inicial)
@@ -12,21 +12,21 @@ public class Excersise07 {
     //sumar los 100 primeros naturales
 
 
-    public static void printNNumbers (int num) {
+    public static void printNNumbers(int num) {
         for (int i = 0; i < 15; i++) {
-            System.out.println((i+ 1) + " ");
+            System.out.println((i + 1) + " ");
         }
     }
 
-   public static int sumNumbers (int numb){
-        int sum=0;
-        for (int i=0; i<=numb; i++){
-          sum+=i;
+    public static int sumNumbers(int numb) {
+        int sum = 0;
+        for (int i = 0; i <= numb; i++) {
+            sum += i;
         }
         return sum;
-   }
+    }
 
-//    public static void mostrarAbecedario (){
+    //    public static void mostrarAbecedario (){
 //        for (char letra='A';letra='Z'; letra++){
 //            for(char y=letra; y<= 'Z'; letra++)
 //                System.out.print(y);
@@ -35,7 +35,7 @@ public class Excersise07 {
 //        System.out.println(sumNumbers(100));
 //        calcularCuadrado();
         contarLetras('D');
-        contarLetras2('R');
+        //contarLetras2('R');
     }
 
     //Mostrar por pantalla los 30 primeros números pares PERO USANDO SOLO FOR
@@ -46,20 +46,20 @@ public class Excersise07 {
 
 //Calcular el cuadrado de los 20 primeros numeros naturales
 
-public static void calcularCuadrado() {
-    for (int i = 1; i <= 20; i++){
-        System.out.print(i*i +" ");
+    public static void calcularCuadrado() {
+        for (int i = 1; i <= 20; i++) {
+            System.out.print(i * i + " ");
+        }
     }
-}
 //Construye un método que recibiendo por parámetro una letra del abecedario muestre por pantalla cuantas
 //le faltan hasta llegar a la Z
 
-public static void contarLetras(char letra) {
-        int contador=0;
-        for (char i=letra;i<='Z';i++){
-                contador++;
-            }
-            System.out.println(contador);
-
+    public static void contarLetras(char letra) {
+        int contador = 0;
+        for (char i = letra; i <= 'Z'; i++) {
+            contador++;
+        }
+        System.out.println(contador);
     }
+}
 

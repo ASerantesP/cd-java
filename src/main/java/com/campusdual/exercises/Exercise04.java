@@ -1,4 +1,4 @@
-package com.campusdual;
+package com.campusdual.exercises;
 
 public class Exercise04 {
     //Sumar los primeros 5 números naturales

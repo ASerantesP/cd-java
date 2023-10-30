@@ -1,4 +1,4 @@
-package com.campusdual;
+package com.campusdual.exercises;
 
 public class Exercise03 {
     //Funciones y procedimientos van fuera del main
