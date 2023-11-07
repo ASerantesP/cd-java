@@ -106,8 +106,8 @@ public class Cat {
         return false;
     }
 
-//    public void cambioPelo(){
-//        this.cambioPelo=colorPelo;
+//    pbublic void cambioPelo(){
+////        this.camioPelo=colorPelo;
 //        if(getColorPelo()!=colorPelo){
 //            this.cambioPelo=getColorPelo();
 //        }
