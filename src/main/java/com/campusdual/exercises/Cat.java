@@ -103,6 +103,7 @@ public class Cat {
         if(this.castrado==true){
         System.out.println("El gato "+ this.raza + " está castrado ");
         }else System.out.println("El gato "+this.raza+" no está castrado");
+        return false;
     }
 
 //    public void cambioPelo(){
